@@ -1,12 +1,16 @@
 {
   "name": "sv-calendar",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build": "tsc && vite build --base=./",
+    "deploy": "npm run build && npx gh-pages -d dist",
+    "update-patch": "npm version --force --no-git-tag-version patch",
+    "update-minor": "npm version --force --no-git-tag-version minor",
+    "update-major": "npm version --force --no-git-tag-version major"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,6 +27,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.0.2",
