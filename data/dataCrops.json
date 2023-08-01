@@ -1,0 +1,548 @@
+[
+    {
+        "name": "blue jazz",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "type": "other",
+        "growDays": 7,
+        "priceSell": 50,
+        "regrowth": 0,
+        "seedPrice": 30
+    },
+    {
+        "name": "cauliflower",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "type": "vegetable",
+        "growDays": 12,
+        "priceSell": 175,
+        "regrowth": 0,
+        "seedPrice": 80
+    },
+    {
+        "name": "coffee bean",
+        "season": {
+            "spring": true,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "type": "other",
+        "growDays": 10,
+        "priceSell": 15,
+        "regrowth": 2,
+        "seedPrice": 2500
+    },
+    {
+        "name": "garlic",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "type": "vegetable",
+        "growDays": 60,
+        "priceSell": 60,
+        "regrowth": 0,
+        "seedPrice": 40
+    },
+    {
+        "name": "green bean",
+        "type": "vegetable",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 10,
+        "priceSell": 40,
+        "regrowth": 3,
+        "seedPrice": 60
+    },
+    {
+        "name": "kale",
+        "type": "vegetable",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 6,
+        "priceSell": 110,
+        "regrowth": 0,
+        "seedPrice": 70
+    },
+    {
+        "name": "parsnip",
+        "type": "vegetable",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 4,
+        "priceSell": 35,
+        "regrowth": 0,
+        "seedPrice": 20
+    },
+    {
+        "name": "potato",
+        "type": "vegetable",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 6,
+        "priceSell": 80,
+        "regrowth": 0,
+        "seedPrice": 50
+    },
+    {
+        "name": "rhubarb",
+        "type": "fruit",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 13,
+        "priceSell": 220,
+        "regrowth": 0,
+        "seedPrice": 100
+    },
+    {
+        "name": "strawberry",
+        "type": "fruit",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 8,
+        "priceSell": 120,
+        "regrowth": 4,
+        "seedPrice": 100
+    },
+    {
+        "name": "tulip",
+        "type": "other",
+        "season": {
+            "spring": true,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 6,
+        "priceSell": 30,
+        "regrowth": 0,
+        "seedPrice": 20
+    },
+    {
+        "name": "blueberry",
+        "type": "fruit",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 13,
+        "priceSell": 150,
+        "regrowth": 4,
+        "seedPrice": 80
+    },
+    {
+        "name": "corn",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 14,
+        "priceSell": 50,
+        "regrowth": 4,
+        "seedPrice": 150
+    },
+    {
+        "name": "hops",
+        "type": "other",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 11,
+        "priceSell": 25,
+        "regrowth": 1,
+        "seedPrice": 60
+    },
+    {
+        "name": "hot pepper",
+        "type": "fruit",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 5,
+        "priceSell": 40,
+        "regrowth": 3,
+        "seedPrice": 40
+    },
+    {
+        "name": "melon",
+        "type": "fruit",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 12,
+        "priceSell": 250,
+        "regrowth": 0,
+        "seedPrice": 80
+    },
+    {
+        "name": "poppy",
+        "type": "other",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 7,
+        "priceSell": 140,
+        "regrowth": 0,
+        "seedPrice": 100
+    },
+    {
+        "name": "radish",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 6,
+        "priceSell": 90,
+        "regrowth": 0,
+        "seedPrice": 40
+    },
+    {
+        "name": "red cabbage",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 9,
+        "priceSell": 260,
+        "regrowth": 0,
+        "seedPrice": 100
+    },
+    {
+        "name": "starfruit",
+        "type": "fruit",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 13,
+        "priceSell": 750,
+        "regrowth": 0,
+        "seedPrice": 400
+    },
+    {
+        "name": "summer spangle",
+        "type": "other",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 8,
+        "priceSell": 90,
+        "regrowth": 0,
+        "seedPrice": 50
+    },
+    {
+        "name": "sunflower",
+        "type": "other",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 8,
+        "priceSell": 80,
+        "regrowth": 0,
+        "seedPrice": 200
+    },
+    {
+        "name": "tomato",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 11,
+        "priceSell": 60,
+        "regrowth": 4,
+        "seedPrice": 50
+    },
+    {
+        "name": "wheat",
+        "type": "other",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 4,
+        "priceSell": 25,
+        "regrowth": 0,
+        "seedPrice": 10
+    },
+    {
+        "name": "amaranth",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 7,
+        "priceSell": 150,
+        "regrowth": 0,
+        "seedPrice": 70
+    },
+    {
+        "name": "artichoke",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 8,
+        "priceSell": 160,
+        "regrowth": 0,
+        "seedPrice": 30
+    },
+    {
+        "name": "beet",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 6,
+        "priceSell": 100,
+        "regrowth": 0,
+        "seedPrice": 20
+    },
+    {
+        "name": "bok choy",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 4,
+        "priceSell": 80,
+        "regrowth": 0,
+        "seedPrice": 50
+    },
+    {
+        "name": "cranberries",
+        "type": "fruit",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 7,
+        "priceSell": 150,
+        "regrowth": 5,
+        "seedPrice": 240
+    },
+    {
+        "name": "eggplant",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 5,
+        "priceSell": 60,
+        "regrowth": 5,
+        "seedPrice": 20
+    },
+    {
+        "name": "fairy rose",
+        "type": "other",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 12,
+        "priceSell": 290,
+        "regrowth": 0,
+        "seedPrice": 200
+    },
+    {
+        "name": "grape",
+        "type": "fruit",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 10,
+        "priceSell": 80,
+        "regrowth": 3,
+        "seedPrice": 60
+    },
+    {
+        "name": "pumpkin",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 13,
+        "priceSell": 320,
+        "regrowth": 0,
+        "seedPrice": 100
+    },
+    {
+        "name": "yam",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 10,
+        "priceSell": 160,
+        "regrowth": 0,
+        "seedPrice": 60
+    },
+    {
+        "name": "ancient fruit",
+        "type": "fruit",
+        "season": {
+            "spring": true,
+            "summer": true,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 28,
+        "priceSell": 550,
+        "regrowth": 7,
+        "seedPrice": 0
+    },
+    {
+        "name": "cactus fruit",
+        "type": "fruit",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 12,
+        "priceSell": 75,
+        "regrowth": 3,
+        "seedPrice": 150
+    },
+    {
+        "name": "pineapple",
+        "type": "fruit",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 14,
+        "priceSell": 300,
+        "regrowth": 7,
+        "seedPrice": 0
+    },
+    {
+        "name": "taro root",
+        "type": "vegetable",
+        "season": {
+            "spring": false,
+            "summer": true,
+            "fall": false,
+            "winter": false
+        },
+        "growDays": 10,
+        "priceSell": 100,
+        "regrowth": 0,
+        "seedPrice": 0
+    },
+    {
+        "name": "sweet gem berry",
+        "type": "other",
+        "season": {
+            "spring": false,
+            "summer": false,
+            "fall": true,
+            "winter": false
+        },
+        "growDays": 24,
+        "priceSell": 3000,
+        "regrowth": 0,
+        "seedPrice": 1000
+    }
+]
