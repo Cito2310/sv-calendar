@@ -28,7 +28,7 @@ export const DropdownNavbar = ({ basePath, label, options }: props) => {
     )
 
     return (
-        <div className="w-40">
+        <div className="w-40" onBlur={ toggleActive }>
             <button className="nav-1" onClick={ toggleActive }>
                 <NavLink onClick={ disableClick } className="flex w-40 p-3 py-0.5" to={ basePath } >{ label }</NavLink>
             </button>
@@ -36,7 +36,7 @@ export const DropdownNavbar = ({ basePath, label, options }: props) => {
             <ul className={`${ active ? "hidden" : "absolute" } w-40`}>
                 {
                     options.map( option => 
-                        <li onClick={ toggleActive } className="nav-2">
+                        <li key={ option.label } onClick={ toggleActive } className="nav-2">
                             <NavLink 
                                 className="block p-3 py-0.5 bg-black bg-opacity-50 hover:bg-opacity-80" 
                                 to={ basePath+option.path }>

@@ -51,22 +51,26 @@ export const CardCrop = ({ dataCrop }: props) => {
                     </div>
 
                     <h3 className="font-medium mt-1">Sell Prices</h3>
-                    <tr>
-                        <td>Regular :</td>
-                        <td className="pl-2">{ sellPrices.regular }</td>
-                    </tr>
-                    <tr>
-                        <td>Silver :</td>
-                        <td className="pl-2">{ sellPrices.silver }</td>
-                    </tr>
-                    <tr>
-                        <td>Gold :</td>
-                        <td className="pl-2">{ sellPrices.gold }</td>
-                    </tr>
-                    <tr>
-                        <td>Iridium :</td>
-                        <td className="pl-2">{ sellPrices.iridium }</td>
-                    </tr>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Regular :</td>
+                                <td className="pl-2">{ sellPrices.regular }</td>
+                            </tr>
+                            <tr>
+                                <td>Silver :</td>
+                                <td className="pl-2">{ sellPrices.silver }</td>
+                            </tr>
+                            <tr>
+                                <td>Gold :</td>
+                                <td className="pl-2">{ sellPrices.gold }</td>
+                            </tr>
+                            <tr>
+                                <td>Iridium :</td>
+                                <td className="pl-2">{ sellPrices.iridium }</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                     <h3 className="font-medium mt-1">Artisan sell prices</h3>
                     <p>Preserves jar: { preservesJar }</p>

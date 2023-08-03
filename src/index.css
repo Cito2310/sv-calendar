@@ -10,7 +10,7 @@
 
 .border-board {
     border: 12px solid transparent;
-    border-image: url("/data/other_images/menu_border.png") 15 stretch;
+    border-image: url("/assets/other_img/menu_border.png") 15 stretch;
 }
 
 .filter-season-desactive {
