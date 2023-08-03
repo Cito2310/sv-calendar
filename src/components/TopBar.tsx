@@ -2,7 +2,7 @@ import { DropdownNavbar } from "./DropdownNavbar"
 
 export const TopBar = () => {
     return (
-        <nav className="flex bg-gray-900 text-white px-3">
+        <nav className="fixed w-screen flex bg-gray-900 text-white px-3 z-40">
             <DropdownNavbar basePath="/pathVillage" label="Path Village" options={[
                 { label: "Beach", path: "/Beach" },
                 { label: "Bus Stop", path: "/BusStop" },
