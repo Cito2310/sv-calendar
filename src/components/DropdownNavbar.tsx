@@ -14,29 +14,31 @@ interface props {
 
 
 export const DropdownNavbar = ({ basePath, label, options }: props) => {
-    const [active, setActive] = useState(false);
-    const toggleActive = () => { setActive( !active ) };
+    const [show, setShow] = useState(false);
+    const onToggleShow = () => { setShow( !show ) };
+    const onHidden = () => { setShow( false ) };
+    // const onShow = () => { setShow( true ) };
 
     const disableClick = (e: any) => { e.preventDefault() };
 
     if ( !options ) return (
         <div className="w-40">
-            <button className="nav-1" onClick={ toggleActive }>
+            <button className="nav-1" onClick={ onToggleShow }>
                 <NavLink className="flex w-40 p-3 py-0.5" to={ basePath } >{ label }</NavLink>
             </button>
         </div>
     )
 
     return (
-        <div className="w-40" onBlur={ toggleActive }>
-            <button className="nav-1" onClick={ toggleActive }>
+        <div className="w-40" onMouseLeave={ onHidden }>
+            <button className="nav-1" onClick={ onToggleShow }>
                 <NavLink onClick={ disableClick } className="flex w-40 p-3 py-0.5" to={ basePath } >{ label }</NavLink>
             </button>
 
-            <ul className={`${ active ? "hidden" : "absolute" } w-40`}>
+            <ul className={`${ show ? "absolute" : "hidden" } w-40 z-50`}>
                 {
                     options.map( option => 
-                        <li key={ option.label } onClick={ toggleActive } className="nav-2">
+                        <li key={ option.label } onClick={ onHidden } className="nav-2">
                             <NavLink 
                                 className="block p-3 py-0.5 bg-black bg-opacity-50 hover:bg-opacity-80" 
                                 to={ basePath+option.path }>
