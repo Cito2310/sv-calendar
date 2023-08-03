@@ -27,7 +27,7 @@ export const CardCrop = ({ dataCrop }: props) => {
         <li className="min-w-[240px] flex-1 border-board list-none">
             <div className="bg-[#FFCB7B] p-2 pb-3 text-[0.8rem]">
                 <div className="flex gap-1">
-                    <img src={`data/crops_images/${nameToImage}.png`} />
+                    <img src={`assets/crops_img/${nameToImage}.png`} />
 
                     <div>
                         <h2 className="font-medium text-base">{capitalizeName}</h2>
@@ -38,10 +38,10 @@ export const CardCrop = ({ dataCrop }: props) => {
                 <div className="ml-1">
                     <h3 className="font-medium mt-1">Season</h3>
                     <div className="flex flex-row">
-                        <img className={`h-7 ${!season.fall && "filter-season-desactive"}`} src="data/season_images/Fall.png" />
-                        <img className={`h-7 ${!season.winter && "filter-season-desactive"}`} src="data/season_images/Winter.png" />
-                        <img className={`h-7 ${!season.summer && "filter-season-desactive"}`} src="data/season_images/Summer.png" />
-                        <img className={`h-7 ${!season.spring && "filter-season-desactive"}`} src="data/season_images/Spring.png" />
+                        <img className={`h-7 ${!season.fall && "filter-season-desactive"}`} src="assets/season_img/Fall.png" />
+                        <img className={`h-7 ${!season.winter && "filter-season-desactive"}`} src="assets/season_img/Winter.png" />
+                        <img className={`h-7 ${!season.summer && "filter-season-desactive"}`} src="assets/season_img/Summer.png" />
+                        <img className={`h-7 ${!season.spring && "filter-season-desactive"}`} src="assets/season_img/Spring.png" />
                     </div>
 
                     <div className="mt-2 h-14">
